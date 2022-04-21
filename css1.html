@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-container">
+        <h1>Scroll Down</h1>
+        <p>Header doesnot move on Scrolling Down/up</p>
+      </div>
+    <div class="header" id="myHeader">
+    <h2>My Static Header</h2>
+  </div>
+      </div>
+      <div class="content">
+          
+    <div class="outerDiv">
+    
+    <form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+        <h1 class="heading">Student Registration Form</h1>
+      
+
+        <p>
+        <label for="NAME">Name:</label>
+        <input type="text" name="customer_name" id="Emailid" style="margin-left: 90px; padding: 10px; margin-bottom: 10px;" placeholder="Enter Full Name" required>
+    </p>
+
+        <p>
+        <label for="NAME">Father's Name:</label>
+        <input type="text" name="customer_name" style="margin-left: 30px; padding: 10px; margin-bottom: 10px;"  id="Emailid" required>
+    </p>
+
+        <p>
+        <label for="NAME">Mother's Name:</label>
+        <input type="text" name="customer_name" style="margin-left: 25px; padding: 10px; margin-bottom: 10px;"  id="Emailid" required>
+    </p>
+
+    <p>
+        <label for="PHONE NO">Phone Number:</label>
+        <input type="tel" name="phone_number"  style="margin-left: 25px; padding: 10px; margin-bottom: 10px;"  id="Emailid" placeholder="017xxxxxxx" required>
+    </p>
+
+    <p>
+            <label for="EMAIL ID">Email Id:</label>
+            <input type="text" name="Email id" style="margin-left: 75px; padding: 10px; margin-bottom: 10px;"  id="Emailid"  placeholder="sample@example.com" required>
+        </p>
+       <div class="checkRadioDiv">Gender:
+        <p><label> <input type="radio" name="gender" required value="male" style="margin-left: 45px;margin-bottom: 20px;margin-top: 10px;" > Male </label></p>
+        <p><label> <input type="radio" name="gender" required value="female"> Female </label></p>
+        <p><label> <input type="radio" name="gender" required value="other"> Other </label></p>
+    </div>
+        
+    <p>
+        <label>Date of Birth: 
+        <input type="datetime-local" name="pickup_time" style="margin-left: 45px; padding: 10px; margin-bottom: 10px;"  required>
+        </label>
+        </p>
+        <p>
+            <label for="ADDRESS">Address:</label>
+            <input type="text" name="ADDRESS" id="Email id" placeholder="Street-   House-   Road-" style="margin-left: 75px; padding: 10px; margin-bottom: 10px;"  required>
+        </p>
+
+        <p>
+            <label>Blood Group:
+            <select id="pickup_place" name="pickup_place" style="margin-left: 45px; padding: 10px; margin-bottom: 10px;" >
+            <option value="" selected="selected">Select One</option>
+            <option value="office" >O+</option>
+            <option value="town_hall" >O-</option>
+            <option value="town_hall" >AB+</option>
+            <option value="town_hall" >AB-</option>
+            <option value="town_hall" >A+</option>
+            <option value="town_hall" >A-</option>
+            <option value="town_hall" >B+</option>
+            <option value="town_hall" >B-</option>
+            <option value="telepathy" >Don't know </option>
+            </select>
+            </label> 
+            </p>
+
+        <div class="checkRadioDiv" style=" margin-top: 10px; margin-bottom: 20px;">Department:
+            <p><label> <input type="radio" name="gender"  required value="male"> CSE </label></p>
+            <p><label> <input type="radio" name="gender" required value="female"> EEE </label></p>
+            <p><label> <input type="radio" name="gender" required value="other"> BBA </label></p>
+        </div>
+
+    <div class="checkRadioDiv" style="margin-bottom: 20px;margin-top: 10px;">Course:
+        <p><label> <input type="checkbox" name="extras" value="baby" style="margin-left: 90px;" > C </label></p>
+        <p><label> <input type="checkbox" name="extras" value="wheelchair" style="margin-left: 10px;"> C++ </label></p>
+        <p><label> <input type="checkbox" name="extras" value="tip" style="margin-left: 10px;"> Java </label></p>
+        <p><label> <input type="checkbox" name="extras" value="tip" style="margin-left: 10px;"> AI </label></p>
+        <p><label> <input type="checkbox" name="extras" value="tip" style="margin-left: 10px;"> Machine Learning </label></p>
+        <p><label> <input type="checkbox" name="extras" value="tip" style="margin-left: 10px;"> Robotics </label></p>
+      </div>
+
+    <p>
+        <label for="fileselect">Upload:</label>
+        <input type="file" name="upload" id="fileselect" style="margin-left: 75px; padding: 10px; margin-bottom: 10px;" >
+    </p>
+        
+        
+        <div style="display: flex; margin-top: 20px; padding: 10px; margin-bottom: 10px;">
+        <p><button id="sub">Submit</button></p>
+        <p><input type="reset" id="res"></button></p>
+    </div>
+    </div>
+     </form>
+     </div>
+     <div class="outerDiv1">
+        <h1 class="heading1">Tables using HTML/CSS</h1>
+        <table>
+            <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Occupation</th>
+            <th>Age</th>
+
+            </tr>
+            <tr>
+            <td>Aparna</td>
+            <td>Singh</td>
+            <td>Engineer</td>
+            <td>19</td>
+            </tr>
+            <tr>
+            <td>Leena</td>
+            <td>Kumawat</td>
+            <td>Cook</td>
+            <td>21</td>
+            </tr>
+            <tr>
+            <td>Mehak</td>
+            <td>Sharma</td>
+            <td>Designer</td>
+            <td>20</td>
+            </tr>
+            <tr>
+            <td>Chanchal</td>
+            <td>Bansal</td>
+            <td>Teacher</td>
+            <td>22</td>
+            </tr>
+          </table>
+    
+     </div>
+     <div class="outerDiv1">
+         <h2 class="heading1">Float Properties</h2>
+         <h2>The float Property-Left</h2>
+<p class="l1"><img src="pic.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+    <br>
+    <h2>The float Property-Right</h2>
+    <p class="l2"><img src="pic.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+        <br>
+        <h2>The float Property-None</h2>
+        <p class="l3"><img src="pic.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+          
+    </div>
+    <div class="outerDiv1">
+        <h2 class="heading1">Display & Position Properties</h2>
+        <h1>The display Property</h1>
+
+<h2>display: contents:</h2>
+<div class="a">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <div class="b">APARNA SINGH HERE!!!!</div> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+<br>
+<br>
+<h2>display: inline:</h2>
+<p class="inl">These two paragraphs generates inline boxes, and it results in</p>
+
+<p class="inl">no distance between the two elements.</p> 
+<br>
+<br>
+<h2>position: relative;</h2>
+
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+
+<div class="relative">
+This div element has position: relative;
+</div>
+<br>
+<br>
+<h2>position: fixed;</h2>
+
+<p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+<div class="fixed">
+This div element has position: fixed;
+</div>
+</div>
+
+
+     <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+</body>
+</html>
